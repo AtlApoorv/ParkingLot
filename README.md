@@ -49,3 +49,6 @@ Open your terminal and navigate to the ParkingLot tests directory:
 ..\ParkingLot\ParkingLotTests\bin\Release\netcoreapp2.1\publish
 Run the below command:
  dotnet test -v n ParkingLotTests.dll
+ 
+**PS: I have made it as self-contained as possible with only .NET Core runtime required.**
+**And it took me a whole 3 hrs**
