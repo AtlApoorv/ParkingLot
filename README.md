@@ -1,8 +1,10 @@
 # ParkingLot
 About the app:
-This ParkingLot is a console application, developed in a cross platform .NET core 2.1
-There is no external library used for coding.
-Unit tests are coded using NUnit3 and Moq for mocking
+-This ParkingLot is a console application, developed in a cross platform .NET core 2.1
+-There is no external library used for coding.
+-Unit tests are coded using NUnit3 and Moq for mocking
+-The Console application is injected with a adapter dependency to separate the logic.
+-Main processor code resides in the Adapter.cs
 
 Follow the below steps to setup .Net core 2.1 on your platform
 
@@ -34,13 +36,15 @@ Running the application and unit tests:
 This is valid for any system: Windows, Mac or Ubuntu, considering that the .Net core runtime has been installed from the above steps
 
 Running the ParkingLot console application:
-In your terminal, navigate to the ParkingLot project directory ..\ParkingLot\ParkingLot\bin\Release\netcoreapp2.1\publish
+In your terminal, navigate to the ParkingLot project directory:
+..\ParkingLot\ParkingLot\bin\Release\netcoreapp2.1\publish
 Run the below command:
  dotnet ParkingLot.dll
- Paste the input file location
+ <Paste the input file location>
 
 
 Running the ParkingLot UnitTests from console:
-In your terminal, navigate to the ParkingLot tests directory ..\ParkingLot\ParkingLotTests\bin\Release\netcoreapp2.1\publish
+In your terminal, navigate to the ParkingLot tests directory:
+..\ParkingLot\ParkingLotTests\bin\Release\netcoreapp2.1\publish
 Run the below command:
  dotnet test -v n ParkingLotTests.dll
