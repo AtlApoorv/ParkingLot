@@ -16,7 +16,7 @@ Installing the .NET Core 2.1 Runtime on macOS:
   dotnet --version
 - If it returns a version, then .NET Core is installed successfully.
 
-Installing the .NET Core 2.1 Runtime on
+Installing the .NET Core 2.1 Runtime on Ubuntu:
 - Visit this link: https://docs.microsoft.com/en-us/dotnet/core/install/linux-ubuntu
 - We need to install the .NET Core 2.1 Runtime on Ubuntu using terminal
 - Check your compatible Ubuntu version from the list for an active support
