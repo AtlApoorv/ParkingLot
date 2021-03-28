@@ -8,16 +8,15 @@ About the app:
 
 Follow the below steps to setup .Net core 2.1 runtime on your platform, which is required to run the console application:
 
-macOS
-Install the .NET Core 2.1 Runtime on macOS:
+Installing the .NET Core 2.1 Runtime on macOS:
 - Go to the below link to install a .NET Core 2.1 runtime for macOS
- https://dotnet.microsoft.com/download/dotnet/thank-you/runtime-2.1.26-macos-x64-installer
+- https://dotnet.microsoft.com/download/dotnet/thank-you/runtime-2.1.26-macos-x64-installer
 - Now, double click the installer(.pkg) and follow the on screen instructions to install it.
 - After installation, verify in your bash by using the command:
   dotnet --version
 - If it returns a version, then .NET Core is installed successfully.
 
-UBUNTU
+Installing the .NET Core 2.1 Runtime on
 - Visit this link: https://docs.microsoft.com/en-us/dotnet/core/install/linux-ubuntu
 - We need to install the .NET Core 2.1 Runtime on Ubuntu using terminal
 - Check your compatible Ubuntu version from the list for an active support
