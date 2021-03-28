@@ -36,18 +36,18 @@ Clone this repository and follow along to run the application and unit tests:
 This is valid for any system: Windows, Mac or Ubuntu, considering that the .Net core runtime has been installed from the above steps
 
 Running the ParkingLot console application:
-Open your terminal and navigate to the ParkingLot project directory:
+- Open your terminal and navigate to the ParkingLot project directory:
 ..\ParkingLot\ParkingLot\bin\Release\netcoreapp2.1\publish
-Run the below command:
- dotnet ParkingLot.dll
- <Paste the input file location>
+- Run the below command:
+-  dotnet ParkingLot.dll
+-  <Paste the input file location>
 
 
 Running the ParkingLot UnitTests from console:
-Open your terminal and navigate to the ParkingLot tests directory:
+- Open your terminal and navigate to the ParkingLot tests directory:
 ..\ParkingLot\ParkingLotTests\bin\Release\netcoreapp2.1\publish
-Run the below command:
- dotnet test -v n ParkingLotTests.dll
+- Run the below command:
+- dotnet test -v n ParkingLotTests.dll
  
 **PS: I have made it as self-contained as possible with only .NET Core runtime required.**
 **And it took me a whole 3 hrs**
