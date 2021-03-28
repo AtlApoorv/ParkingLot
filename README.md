@@ -6,7 +6,7 @@ About the app:
 -The Console application is injected with a adapter dependency to separate the logic.
 -Main processor code resides in the Adapter.cs
 
-Follow the below steps to setup .Net core 2.1 on your platform
+Follow the below steps to setup .Net core 2.1 runtime on your platform, which is required to run the console application:
 
 macOS
 Install the .NET Core 2.1 Runtime on macOS:
@@ -18,10 +18,11 @@ Install the .NET Core 2.1 Runtime on macOS:
 - If it returns a version, then .NET Core is installed successfully.
 
 UBUNTU
-Install the .NET Core 2.1 Runtime on Ubuntu:
+- Visit this link: https://docs.microsoft.com/en-us/dotnet/core/install/linux-ubuntu
+- We need to install the .NET Core 2.1 Runtime on Ubuntu using terminal
 - Check your compatible Ubuntu version from the list for an active support
 - Now, for any version, installing the .NET Runtime has the same steps and commands
-- Before you install .NET, run the following commands to add the Microsoft package signing key to your list of trusted keys and add the   
+- Before you install .NET runtime, run the following commands to add the Microsoft package signing key to your list of trusted keys and add the   
   package repository. Open a terminal and run the following commands:
 
 wget https://packages.microsoft.com/config/ubuntu/20.10/packages-microsoft-prod.deb -O packages-microsoft-prod.deb
@@ -30,13 +31,13 @@ sudo dpkg -i packages-microsoft-prod.deb
 - Now install the runtime by using the following command:
 sudo apt-get install -y dotnet-runtime-2.1
 
-- Use sudo apt-get update if the above command fails and try again.
+- Use **sudo apt-get update** if the above command fails and try **sudo apt-get install -y dotnet-runtime-2.1** again.
 
-Running the application and unit tests:
+Clone this repository and follow along to run the application and unit tests:
 This is valid for any system: Windows, Mac or Ubuntu, considering that the .Net core runtime has been installed from the above steps
 
 Running the ParkingLot console application:
-In your terminal, navigate to the ParkingLot project directory:
+Open your terminal and navigate to the ParkingLot project directory:
 ..\ParkingLot\ParkingLot\bin\Release\netcoreapp2.1\publish
 Run the below command:
  dotnet ParkingLot.dll
@@ -44,7 +45,7 @@ Run the below command:
 
 
 Running the ParkingLot UnitTests from console:
-In your terminal, navigate to the ParkingLot tests directory:
+Open your terminal and navigate to the ParkingLot tests directory:
 ..\ParkingLot\ParkingLotTests\bin\Release\netcoreapp2.1\publish
 Run the below command:
  dotnet test -v n ParkingLotTests.dll
