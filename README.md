@@ -1,10 +1,10 @@
 # ParkingLot
 About the app:
--This ParkingLot is a console application, developed in a cross platform .NET core 2.1
--There is no external library used for coding.
--Unit tests are coded using NUnit3 and Moq for mocking
--The Console application is injected with a adapter dependency to separate the logic.
--Main processor code resides in the Adapter.cs
+- This ParkingLot is a console application, developed in a cross platform .NET core 2.1
+- There is no external library used for coding.
+- Unit tests are coded using NUnit3 and Moq for mocking
+- The Console application is injected with a adapter dependency to separate the logic.
+- Main processor code resides in the Adapter.cs
 
 Follow the below steps to setup .Net core 2.1 runtime on your platform, which is required to run the console application:
 
